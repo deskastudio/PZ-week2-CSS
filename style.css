@@ -47,7 +47,7 @@ h2:hover {
 .absolute-box {
     position: absolute;
     top: 20px;
-    right: 20px;
+    right: 100px;
     width: 150px;
     height: 100px;
     background-color: lightgreen;
@@ -55,6 +55,7 @@ h2:hover {
     text-align: center;
     padding: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 2;
 }
 
 .relative-box {
